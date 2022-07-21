@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  height: 100vh;
+  text-align: center;
+  overflow: hidden;
+  background-image: url('./assests/imgs/dont.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.Btn {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  background-image: url('./assests/imgs/logo_small.png');
+  background-size: cover;
+  background-position: center;
+  width: 5rem;
+  height: 7rem;
+  position: absolute;
+  top: 10%;
+  left: 13%;
+}
